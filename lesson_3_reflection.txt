@@ -33,4 +33,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you are not the one in charge on doing/accepting/declining changes in the master,
+    or when you are testing experimental features than could work or not (the master has
+    all aproved changes and should work).
+    Advantage: keeps master development tidy.
+    Disadvantage: extra work with pull/push/merge branches.
